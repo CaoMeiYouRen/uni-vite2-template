@@ -64,7 +64,7 @@
     "eslint": "^8.38.0",
     "eslint-config-cmyr": "^1.1.28",
     "eslint-plugin-html": "^7.1.0",
-    "eslint-plugin-vue": "^9.10.0",
+    "eslint-plugin-vue": "^9.11.0",
     "sass": "^1.62.0",
     "stylelint": "^14.9.1",
     "stylelint-config-cmyr": "^0.2.1",
