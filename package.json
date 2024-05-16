@@ -61,7 +61,7 @@
     "@typescript-eslint/parser": "^5.62.0",
     "@vue/eslint-config-typescript": "^13.0.0",
     "autoprefixer": "^10.4.16",
-    "eslint": "^8.57.0",
+    "eslint": "^9.2.0",
     "eslint-config-cmyr": "^1.1.30",
     "eslint-plugin-html": "^8.1.1",
     "eslint-plugin-vue": "^9.26.0",
