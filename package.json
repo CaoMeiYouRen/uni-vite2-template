@@ -58,7 +58,7 @@
     "@dcloudio/uni-cli-shared": "^3.0.0-alpha-3031320220314002",
     "@dcloudio/vite-plugin-uni": "^3.0.0-alpha-3031320220314002",
     "@typescript-eslint/eslint-plugin": "^7.15.0",
-    "@typescript-eslint/parser": "^7.15.0",
+    "@typescript-eslint/parser": "^7.16.0",
     "@vue/eslint-config-typescript": "^13.0.0",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.57.0",
