@@ -22,3 +22,5 @@ jobs:
       - run: pnpm i --frozen-lockfile
       - run: pnpm run lint
       - run: pnpm run build
+      - run: pnpm run build:app
+      - run: pnpm run build:mp-weixin
