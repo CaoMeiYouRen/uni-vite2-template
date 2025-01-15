@@ -101,7 +101,7 @@ importers:
         version: 14.16.1
       stylelint-config-cmyr:
         specifier: ^0.2.1
-        version: 0.2.1(stylelint-config-rational-order@0.1.2)(stylelint-config-standard@26.0.0(stylelint@14.16.1))(stylelint-order@5.0.0(stylelint@14.16.1))(stylelint-scss@6.10.0(stylelint@14.16.1))(stylelint@14.16.1)
+        version: 0.2.1(stylelint-config-rational-order@0.1.2)(stylelint-config-standard@26.0.0(stylelint@14.16.1))(stylelint-order@5.0.0(stylelint@14.16.1))(stylelint-scss@6.10.1(stylelint@14.16.1))(stylelint@14.16.1)
       stylelint-config-rational-order:
         specifier: ^0.1.2
         version: 0.1.2
@@ -112,8 +112,8 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0(stylelint@14.16.1)
       stylelint-scss:
-        specifier: ^6.10.0
-        version: 6.10.0(stylelint@14.16.1)
+        specifier: ^6.10.1
+        version: 6.10.1(stylelint@14.16.1)
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
@@ -3781,8 +3781,8 @@ packages:
   mdn-data@2.12.2:
     resolution: {integrity: sha512-IEn+pegP1aManZuckezWCO+XZQDplx1366JoVhTpMpBB1sPey/SbveZQUosKiKiGYjg1wH4pMlNgXbCiYgihQA==}
 
-  mdn-data@2.13.0:
-    resolution: {integrity: sha512-OmD1FDyP706JqPqtLqgev/QCK0qudBdUuKKag6InQ/elEw3Cm2AhXYktcSggdc/vWniYqIsofkcteMEOioW5vQ==}
+  mdn-data@2.14.0:
+    resolution: {integrity: sha512-QjcSiIvUHjmXp5wNLClRjQeU0Zp+I2Dag+AhtQto0nyKYZ3IF/pUzCuHe7Bv77EC92XE5t3EXeEiEv/to2Bwig==}
 
   media-typer@0.3.0:
     resolution: {integrity: sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==}
@@ -4832,8 +4832,8 @@ packages:
     peerDependencies:
       stylelint: ^14.0.0
 
-  stylelint-scss@6.10.0:
-    resolution: {integrity: sha512-y03if6Qw9xBMoVaf7tzp5BbnYhYvudIKzURkhSHzcHG0bW0fAYvQpTUVJOe7DyhHaxeThBil4ObEMvGbV7+M+w==}
+  stylelint-scss@6.10.1:
+    resolution: {integrity: sha512-CBqs0jecftIyhic6xba+4OvZUp4B0wNbX19w6Rq1fPo+lBDmTevk+olo8H7u/WQpTSDCDbBN4f3oocQurvXLTQ==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       stylelint: ^16.0.2
@@ -10090,7 +10090,7 @@ snapshots:
 
   mdn-data@2.12.2: {}
 
-  mdn-data@2.13.0: {}
+  mdn-data@2.14.0: {}
 
   media-typer@0.3.0: {}
 
@@ -11162,13 +11162,13 @@ snapshots:
 
   style-search@0.1.0: {}
 
-  stylelint-config-cmyr@0.2.1(stylelint-config-rational-order@0.1.2)(stylelint-config-standard@26.0.0(stylelint@14.16.1))(stylelint-order@5.0.0(stylelint@14.16.1))(stylelint-scss@6.10.0(stylelint@14.16.1))(stylelint@14.16.1):
+  stylelint-config-cmyr@0.2.1(stylelint-config-rational-order@0.1.2)(stylelint-config-standard@26.0.0(stylelint@14.16.1))(stylelint-order@5.0.0(stylelint@14.16.1))(stylelint-scss@6.10.1(stylelint@14.16.1))(stylelint@14.16.1):
     dependencies:
       stylelint: 14.16.1
       stylelint-config-rational-order: 0.1.2
       stylelint-config-standard: 26.0.0(stylelint@14.16.1)
       stylelint-order: 5.0.0(stylelint@14.16.1)
-      stylelint-scss: 6.10.0(stylelint@14.16.1)
+      stylelint-scss: 6.10.1(stylelint@14.16.1)
 
   stylelint-config-rational-order@0.1.2:
     dependencies:
@@ -11199,12 +11199,12 @@ snapshots:
       postcss-sorting: 7.0.1(postcss@8.4.49)
       stylelint: 14.16.1
 
-  stylelint-scss@6.10.0(stylelint@14.16.1):
+  stylelint-scss@6.10.1(stylelint@14.16.1):
     dependencies:
       css-tree: 3.1.0
       is-plain-object: 5.0.0
       known-css-properties: 0.35.0
-      mdn-data: 2.13.0
+      mdn-data: 2.14.0
       postcss-media-query-parser: 0.2.3
       postcss-resolve-nested-selector: 0.1.6
       postcss-selector-parser: 7.0.0
