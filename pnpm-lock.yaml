@@ -13,7 +13,7 @@ importers:
         version: 3.0.0-alpha-4040220241217001(@dcloudio/types@3.4.14)(postcss@8.4.49)(rollup@4.31.0)(vue@3.5.13(typescript@5.7.3))
       '@dcloudio/uni-app-plus':
         specifier: 3.0.0-alpha-4040220241217001
-        version: 3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vite@6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
+        version: 3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vite@6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
       '@dcloudio/uni-components':
         specifier: 3.0.0-alpha-4040220241217001
         version: 3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vue@3.5.13(typescript@5.7.3))
@@ -48,8 +48,8 @@ importers:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.3)
       vue-i18n:
-        specifier: ^11.0.1
-        version: 11.0.1(vue@3.5.13(typescript@5.7.3))
+        specifier: ^11.1.0
+        version: 11.1.0(vue@3.5.13(typescript@5.7.3))
       vuex:
         specifier: ^4.1.0
         version: 4.1.0(vue@3.5.13(typescript@5.7.3))
@@ -65,7 +65,7 @@ importers:
         version: 3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vue@3.5.13(typescript@5.7.3))
       '@dcloudio/vite-plugin-uni':
         specifier: ^3.0.0-alpha-4040220241217001
-        version: 3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vite@6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
+        version: 3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vite@6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.18.0
         version: 7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.7.3))(eslint@8.57.1)(typescript@5.7.3)
@@ -119,7 +119,7 @@ importers:
         version: 5.7.3
       vite:
         specifier: ^6.0.11
-        version: 6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0)
+        version: 6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0)
 
 packages:
 
@@ -1161,8 +1161,8 @@ packages:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
 
-  '@intlify/core-base@11.0.1':
-    resolution: {integrity: sha512-NAmhw1l/llM0HZRpagR/ChJTNymW4ll6/4EDSJML5c8L5Hl/+k6UyF8EIgE6DeHpfheQujkSRngauViHqq6jJQ==}
+  '@intlify/core-base@11.1.0':
+    resolution: {integrity: sha512-5KFrnfgcv4cVWzA1RC4HqMHYEWSD/69GQU7wpKJ2l6mA6ggqEjb9NJN5VJNJvP2mU5y8MAGwXLAJXJo5sbIkMQ==}
     engines: {node: '>= 16'}
 
   '@intlify/core-base@9.1.9':
@@ -1173,8 +1173,8 @@ packages:
     resolution: {integrity: sha512-oKSMKjttG3Ut/1UGEZjSdghuP3fwA15zpDPcjkf/1FjlOIm6uIBGMNS5jXzsZy593u+P/YcnrZD6cD3IVFz9vQ==}
     engines: {node: '>= 10'}
 
-  '@intlify/message-compiler@11.0.1':
-    resolution: {integrity: sha512-5RFH8x+Mn3mbjcHXnb6KCXGiczBdiQkWkv99iiA0JpKrNuTAQeW59Pjq/uObMB0eR0shnKYGTkIJxum+DbL3sw==}
+  '@intlify/message-compiler@11.1.0':
+    resolution: {integrity: sha512-UuV1YwWPBNgL4uqtC1vZPHF2QtYYqVeCDIsbV6JC6Vv90UWmEiU77U7EZmNVVV7DepT83Ow5MaF1CiWI77b61w==}
     engines: {node: '>= 16'}
 
   '@intlify/message-compiler@9.1.9':
@@ -1189,8 +1189,8 @@ packages:
     resolution: {integrity: sha512-XgPw8+UlHCiie3fI41HPVa/VDJb3/aSH7bLhY1hJvlvNV713PFtb4p4Jo+rlE0gAoMsMCGcsiT982fImolSltg==}
     engines: {node: '>= 10'}
 
-  '@intlify/shared@11.0.1':
-    resolution: {integrity: sha512-lH164+aDDptHZ3dBDbIhRa1dOPQUp+83iugpc+1upTOWCnwyC1PVis6rSWNMMJ8VQxvtHQB9JMib48K55y0PvQ==}
+  '@intlify/shared@11.1.0':
+    resolution: {integrity: sha512-DvpNSxiMrFqYMaGSRDDnQgO/L0MqNH4KWw9CUx8LRHHIdWp08En9DpmSRNpauUOxKpHAhyJJxx92BHZk9J84EQ==}
     engines: {node: '>= 16'}
 
   '@intlify/shared@9.1.9':
@@ -1712,8 +1712,8 @@ packages:
   '@types/node@22.10.2':
     resolution: {integrity: sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==}
 
-  '@types/node@22.12.0':
-    resolution: {integrity: sha512-Fll2FZ1riMjNmlmJOdAyY5pUbkftXslB5DgEzlIuNaiWhXd00FhWxVC/r4yV/4wBb9JfImTu+jiSvXTkJ7F/gA==}
+  '@types/node@22.13.0':
+    resolution: {integrity: sha512-ClIbNe36lawluuvq3+YYhnIN2CELi+6q8NpnM7PYp4hBn/TatfboPgVSm2rwKRfnV2M+Ty9GWDFI64KEe+kysA==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2294,8 +2294,8 @@ packages:
     resolution: {integrity: sha512-NIxF55hv4nSqQswkAeiOi1r83xy8JldOFDTWiug55KBu9Jnblncd2U6ViHmYgHf01TPZS77NJBhBMKdWj9HQMQ==}
     engines: {node: '>=8'}
 
-  cjs-module-lexer@1.4.2:
-    resolution: {integrity: sha512-7gdnIlr/WqvlQaX6yMvhHbiEVZ07qCV22rb/brgyFGKgo76ckIsrtDp4w2NIOitmKDNgiUm+pfVSE4VMwnkXwQ==}
+  cjs-module-lexer@1.4.3:
+    resolution: {integrity: sha512-9z8TZaGM1pfswYeXrUpzPrkx8UnWYdhJclsiYMm6x/w5+nN+8Tf/LnAgfLGQCm59qAOxU8WwHEq2vNwF6i4j+Q==}
 
   class-utils@0.3.6:
     resolution: {integrity: sha512-qOhPa/Fj7s6TY8H8esGu5QNpMMQxz79h+urzrNYN6mn+9BnxlDGf5QZ+XeCDsxSjPqsSR56XOZOJmpeurnLMeg==}
@@ -5258,8 +5258,8 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  vue-i18n@11.0.1:
-    resolution: {integrity: sha512-pWAT8CusK8q9/EpN7V3oxwHwxWm6+Kp2PeTZmRGvdZTkUzMQDpbbmHp0TwQ8xw04XKm23cr6B4GL72y3W8Yekg==}
+  vue-i18n@11.1.0:
+    resolution: {integrity: sha512-UgtYUe99mLfo7ya5TJSsJcgJZaqIunwXjff5UA03xRry0VtgN4zIUbuoycK9/ZZQJg5Cmr6V6zq+u0H0P0hlNw==}
     engines: {node: '>= 16'}
     peerDependencies:
       vue: ^3.0.0
@@ -6221,10 +6221,10 @@ snapshots:
 
   '@dcloudio/types@3.4.14': {}
 
-  '@dcloudio/uni-app-plus@3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vite@6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))':
+  '@dcloudio/uni-app-plus@3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vite@6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@dcloudio/uni-app-uts': 3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vue@3.5.13(typescript@5.7.3))
-      '@dcloudio/uni-app-vite': 3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vite@6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
+      '@dcloudio/uni-app-vite': 3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vite@6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
       '@dcloudio/uni-app-vue': 3.0.0-alpha-4040220241217001
       debug: 4.4.0
       fs-extra: 10.1.0
@@ -6273,14 +6273,14 @@ snapshots:
       - ts-node
       - vue
 
-  '@dcloudio/uni-app-vite@3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vite@6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))':
+  '@dcloudio/uni-app-vite@3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vite@6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@dcloudio/uni-cli-shared': 3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vue@3.5.13(typescript@5.7.3))
       '@dcloudio/uni-i18n': 3.0.0-alpha-4040220241217001
       '@dcloudio/uni-nvue-styler': 3.0.0-alpha-4040220241217001
       '@dcloudio/uni-shared': 3.0.0-alpha-4040220241217001
       '@rollup/pluginutils': 5.1.4(rollup@4.31.0)
-      '@vitejs/plugin-vue': 5.1.0(vite@6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
+      '@vitejs/plugin-vue': 5.1.0(vite@6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
       '@vue/compiler-dom': 3.4.21
       '@vue/compiler-sfc': 3.4.21
       debug: 4.4.0
@@ -6741,7 +6741,7 @@ snapshots:
       - ts-node
       - vue
 
-  '@dcloudio/vite-plugin-uni@3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vite@6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))':
+  '@dcloudio/vite-plugin-uni@3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vite@6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-syntax-import-meta': 7.10.4(@babel/core@7.26.0)
@@ -6749,9 +6749,9 @@ snapshots:
       '@dcloudio/uni-cli-shared': 3.0.0-alpha-4040220241217001(postcss@8.4.49)(rollup@4.31.0)(vue@3.5.13(typescript@5.7.3))
       '@dcloudio/uni-shared': 3.0.0-alpha-4040220241217001
       '@rollup/pluginutils': 5.1.4(rollup@4.31.0)
-      '@vitejs/plugin-legacy': 5.3.2(terser@5.37.0)(vite@6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))
-      '@vitejs/plugin-vue': 5.1.0(vite@6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
-      '@vitejs/plugin-vue-jsx': 3.1.0(vite@6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
+      '@vitejs/plugin-legacy': 5.3.2(terser@5.37.0)(vite@6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))
+      '@vitejs/plugin-vue': 5.1.0(vite@6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
+      '@vitejs/plugin-vue-jsx': 3.1.0(vite@6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))
       '@vue/compiler-core': 3.4.21
       '@vue/compiler-dom': 3.4.21
       '@vue/compiler-sfc': 3.4.21
@@ -6768,7 +6768,7 @@ snapshots:
       picocolors: 1.1.1
       terser: 5.37.0
       unplugin-auto-import: 0.18.6(rollup@4.31.0)
-      vite: 6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0)
+      vite: 6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0)
     transitivePeerDependencies:
       - '@nuxt/kit'
       - '@vueuse/core'
@@ -6957,10 +6957,10 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@intlify/core-base@11.0.1':
+  '@intlify/core-base@11.1.0':
     dependencies:
-      '@intlify/message-compiler': 11.0.1
-      '@intlify/shared': 11.0.1
+      '@intlify/message-compiler': 11.1.0
+      '@intlify/shared': 11.1.0
 
   '@intlify/core-base@9.1.9':
     dependencies:
@@ -6975,9 +6975,9 @@ snapshots:
     dependencies:
       '@intlify/shared': 9.1.9
 
-  '@intlify/message-compiler@11.0.1':
+  '@intlify/message-compiler@11.1.0':
     dependencies:
-      '@intlify/shared': 11.0.1
+      '@intlify/shared': 11.1.0
       source-map-js: 1.2.1
 
   '@intlify/message-compiler@9.1.9':
@@ -6994,7 +6994,7 @@ snapshots:
       '@intlify/message-resolver': 9.1.9
       '@intlify/shared': 9.1.9
 
-  '@intlify/shared@11.0.1': {}
+  '@intlify/shared@11.1.0': {}
 
   '@intlify/shared@9.1.9': {}
 
@@ -7027,7 +7027,7 @@ snapshots:
   '@jest/console@27.5.1':
     dependencies:
       '@jest/types': 27.5.1
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       chalk: 4.1.2
       jest-message-util: 27.5.1
       jest-util: 27.5.1
@@ -7040,7 +7040,7 @@ snapshots:
       '@jest/test-result': 27.5.1
       '@jest/transform': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       emittery: 0.8.1
@@ -7074,14 +7074,14 @@ snapshots:
     dependencies:
       '@jest/fake-timers': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       jest-mock: 27.5.1
 
   '@jest/fake-timers@27.5.1':
     dependencies:
       '@jest/types': 27.5.1
       '@sinonjs/fake-timers': 8.1.0
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       jest-message-util: 27.5.1
       jest-mock: 27.5.1
       jest-util: 27.5.1
@@ -7099,7 +7099,7 @@ snapshots:
       '@jest/test-result': 27.5.1
       '@jest/transform': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       chalk: 4.1.2
       collect-v8-coverage: 1.0.2
       exit: 0.1.2
@@ -7168,7 +7168,7 @@ snapshots:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       '@types/yargs': 16.0.9
       chalk: 4.1.2
 
@@ -7661,7 +7661,7 @@ snapshots:
 
   '@types/graceful-fs@4.1.9':
     dependencies:
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
 
   '@types/istanbul-lib-coverage@2.0.6': {}
 
@@ -7681,7 +7681,7 @@ snapshots:
     dependencies:
       undici-types: 6.20.0
 
-  '@types/node@22.12.0':
+  '@types/node@22.13.0':
     dependencies:
       undici-types: 6.20.0
 
@@ -7796,7 +7796,7 @@ snapshots:
 
   '@ungap/structured-clone@1.2.1': {}
 
-  '@vitejs/plugin-legacy@5.3.2(terser@5.37.0)(vite@6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))':
+  '@vitejs/plugin-legacy@5.3.2(terser@5.37.0)(vite@6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/preset-env': 7.26.0(@babel/core@7.26.0)
@@ -7807,23 +7807,23 @@ snapshots:
       regenerator-runtime: 0.14.1
       systemjs: 6.15.1
       terser: 5.37.0
-      vite: 6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0)
+      vite: 6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@vitejs/plugin-vue-jsx@3.1.0(vite@6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))':
+  '@vitejs/plugin-vue-jsx@3.1.0(vite@6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-transform-typescript': 7.26.3(@babel/core@7.26.0)
       '@vue/babel-plugin-jsx': 1.2.5(@babel/core@7.26.0)
-      vite: 6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0)
+      vite: 6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0)
       vue: 3.5.13(typescript@5.7.3)
     transitivePeerDependencies:
       - supports-color
 
-  '@vitejs/plugin-vue@5.1.0(vite@6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))':
+  '@vitejs/plugin-vue@5.1.0(vite@6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
-      vite: 6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0)
+      vite: 6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0)
       vue: 3.5.13(typescript@5.7.3)
 
   '@vue/babel-helper-vue-transform-on@1.2.5': {}
@@ -8384,7 +8384,7 @@ snapshots:
 
   ci-info@3.9.0: {}
 
-  cjs-module-lexer@1.4.2: {}
+  cjs-module-lexer@1.4.3: {}
 
   class-utils@0.3.6:
     dependencies:
@@ -9563,7 +9563,7 @@ snapshots:
       '@jest/environment': 27.5.1
       '@jest/test-result': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       chalk: 4.1.2
       co: 4.6.0
       dedent: 0.7.0
@@ -9659,7 +9659,7 @@ snapshots:
       '@jest/environment': 27.5.1
       '@jest/fake-timers': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       jest-mock: 27.5.1
       jest-util: 27.5.1
       jsdom: 16.7.0
@@ -9674,7 +9674,7 @@ snapshots:
       '@jest/environment': 27.5.1
       '@jest/fake-timers': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       jest-mock: 27.5.1
       jest-util: 27.5.1
 
@@ -9684,7 +9684,7 @@ snapshots:
     dependencies:
       '@jest/types': 27.5.1
       '@types/graceful-fs': 4.1.9
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       anymatch: 3.1.3
       fb-watchman: 2.0.2
       graceful-fs: 4.2.11
@@ -9703,7 +9703,7 @@ snapshots:
       '@jest/source-map': 27.5.1
       '@jest/test-result': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       chalk: 4.1.2
       co: 4.6.0
       expect: 27.5.1
@@ -9746,7 +9746,7 @@ snapshots:
   jest-mock@27.5.1:
     dependencies:
       '@jest/types': 27.5.1
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
 
   jest-pnp-resolver@1.2.3(jest-resolve@27.5.1):
     optionalDependencies:
@@ -9782,7 +9782,7 @@ snapshots:
       '@jest/test-result': 27.5.1
       '@jest/transform': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       chalk: 4.1.2
       emittery: 0.8.1
       graceful-fs: 4.2.11
@@ -9814,7 +9814,7 @@ snapshots:
       '@jest/transform': 27.5.1
       '@jest/types': 27.5.1
       chalk: 4.1.2
-      cjs-module-lexer: 1.4.2
+      cjs-module-lexer: 1.4.3
       collect-v8-coverage: 1.0.2
       execa: 5.1.1
       glob: 7.2.3
@@ -9833,7 +9833,7 @@ snapshots:
 
   jest-serializer@27.5.1:
     dependencies:
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       graceful-fs: 4.2.11
 
   jest-snapshot@27.5.1:
@@ -9866,7 +9866,7 @@ snapshots:
   jest-util@27.5.1:
     dependencies:
       '@jest/types': 27.5.1
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -9885,7 +9885,7 @@ snapshots:
     dependencies:
       '@jest/test-result': 27.5.1
       '@jest/types': 27.5.1
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       jest-util: 27.5.1
@@ -9893,7 +9893,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -11737,13 +11737,13 @@ snapshots:
       unist-util-stringify-position: 1.1.2
       vfile-message: 1.1.1
 
-  vite@6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0):
+  vite@6.0.11(@types/node@22.13.0)(less@4.2.1)(sass@1.83.4)(stylus@0.64.0)(sugarss@2.0.0)(terser@5.37.0):
     dependencies:
       esbuild: 0.24.2
       postcss: 8.5.1
       rollup: 4.31.0
     optionalDependencies:
-      '@types/node': 22.12.0
+      '@types/node': 22.13.0
       fsevents: 2.3.3
       less: 4.2.1
       sass: 1.83.4
@@ -11764,10 +11764,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vue-i18n@11.0.1(vue@3.5.13(typescript@5.7.3)):
+  vue-i18n@11.1.0(vue@3.5.13(typescript@5.7.3)):
     dependencies:
-      '@intlify/core-base': 11.0.1
-      '@intlify/shared': 11.0.1
+      '@intlify/core-base': 11.1.0
+      '@intlify/shared': 11.1.0
       '@vue/devtools-api': 6.6.4
       vue: 3.5.13(typescript@5.7.3)
 
