@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite'
-import uni from '@dcloudio/vite-plugin-uni'
 import path from 'path'
-
+import { defineConfig } from 'vite'
+import vitePluginUni from '@dcloudio/vite-plugin-uni'
+const uni = (vitePluginUni as any).default
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [uni()],
