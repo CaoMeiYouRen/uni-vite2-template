@@ -60,7 +60,7 @@
     "@dcloudio/vite-plugin-uni": "^3.0.0-alpha-4080120250821001",
     "autoprefixer": "^10.4.21",
     "cross-env": "^10.0.0",
-    "eslint": "^9.34.0",
+    "eslint": "^9.35.0",
     "eslint-config-cmyr": "2.0.1",
     "eslint-plugin-vue": "^10.4.0",
     "sass": "^1.92.1",
