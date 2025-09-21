@@ -89,13 +89,13 @@ importers:
         version: 14.16.1
       stylelint-config-cmyr:
         specifier: ^0.2.1
-        version: 0.2.1(stylelint-config-rational-order@0.1.2)(stylelint-config-standard@26.0.0(stylelint@14.16.1))(stylelint-order@5.0.0(stylelint@14.16.1))(stylelint-scss@6.12.1(stylelint@14.16.1))(stylelint@14.16.1)
+        version: 0.2.1(stylelint-config-rational-order@0.1.2)(stylelint-config-standard@29.0.0(stylelint@14.16.1))(stylelint-order@5.0.0(stylelint@14.16.1))(stylelint-scss@6.12.1(stylelint@14.16.1))(stylelint@14.16.1)
       stylelint-config-rational-order:
         specifier: ^0.1.2
         version: 0.1.2
       stylelint-config-standard:
-        specifier: ^26.0.0
-        version: 26.0.0(stylelint@14.16.1)
+        specifier: ^29.0.0
+        version: 29.0.0(stylelint@14.16.1)
       stylelint-order:
         specifier: ^5.0.0
         version: 5.0.0(stylelint@14.16.1)
@@ -5343,15 +5343,15 @@ packages:
   stylelint-config-rational-order@0.1.2:
     resolution: {integrity: sha512-Qo7ZQaihCwTqijfZg4sbdQQHtugOX/B1/fYh018EiDZHW+lkqH9uHOnsDwDPGZrYJuB6CoyI7MZh2ecw2dOkew==}
 
-  stylelint-config-recommended@8.0.0:
-    resolution: {integrity: sha512-IK6dWvE000+xBv9jbnHOnBq01gt6HGVB2ZTsot+QsMpe82doDQ9hvplxfv4YnpEuUwVGGd9y6nbaAnhrjcxhZQ==}
+  stylelint-config-recommended@9.0.0:
+    resolution: {integrity: sha512-9YQSrJq4NvvRuTbzDsWX3rrFOzOlYBmZP+o513BJN/yfEmGSr0AxdvrWs0P/ilSpVV/wisamAHu5XSk8Rcf4CQ==}
     peerDependencies:
-      stylelint: ^14.8.0
+      stylelint: ^14.10.0
 
-  stylelint-config-standard@26.0.0:
-    resolution: {integrity: sha512-hUuB7LaaqM8abvkOO84wh5oYSkpXgTzHu2Zza6e7mY+aOmpNTjoFBRxSLlzY0uAOMWEFx0OMKzr+reG1BUtcqQ==}
+  stylelint-config-standard@29.0.0:
+    resolution: {integrity: sha512-uy8tZLbfq6ZrXy4JKu3W+7lYLgRQBxYTUUB88vPgQ+ZzAxdrvcaSUW9hOMNLYBnwH+9Kkj19M2DHdZ4gKwI7tg==}
     peerDependencies:
-      stylelint: ^14.9.0
+      stylelint: ^14.14.0
 
   stylelint-order@2.2.1:
     resolution: {integrity: sha512-019KBV9j8qp1MfBjJuotse6MgaZqGVtXMc91GU9MsS9Feb+jYUvUU3Z8XiClqPdqJZQ0ryXQJGg3U3PcEjXwfg==}
@@ -12556,11 +12556,11 @@ snapshots:
 
   style-search@0.1.0: {}
 
-  stylelint-config-cmyr@0.2.1(stylelint-config-rational-order@0.1.2)(stylelint-config-standard@26.0.0(stylelint@14.16.1))(stylelint-order@5.0.0(stylelint@14.16.1))(stylelint-scss@6.12.1(stylelint@14.16.1))(stylelint@14.16.1):
+  stylelint-config-cmyr@0.2.1(stylelint-config-rational-order@0.1.2)(stylelint-config-standard@29.0.0(stylelint@14.16.1))(stylelint-order@5.0.0(stylelint@14.16.1))(stylelint-scss@6.12.1(stylelint@14.16.1))(stylelint@14.16.1):
     dependencies:
       stylelint: 14.16.1
       stylelint-config-rational-order: 0.1.2
-      stylelint-config-standard: 26.0.0(stylelint@14.16.1)
+      stylelint-config-standard: 29.0.0(stylelint@14.16.1)
       stylelint-order: 5.0.0(stylelint@14.16.1)
       stylelint-scss: 6.12.1(stylelint@14.16.1)
 
@@ -12571,14 +12571,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  stylelint-config-recommended@8.0.0(stylelint@14.16.1):
+  stylelint-config-recommended@9.0.0(stylelint@14.16.1):
     dependencies:
       stylelint: 14.16.1
 
-  stylelint-config-standard@26.0.0(stylelint@14.16.1):
+  stylelint-config-standard@29.0.0(stylelint@14.16.1):
     dependencies:
       stylelint: 14.16.1
-      stylelint-config-recommended: 8.0.0(stylelint@14.16.1)
+      stylelint-config-recommended: 9.0.0(stylelint@14.16.1)
 
   stylelint-order@2.2.1(stylelint@9.10.1):
     dependencies:
