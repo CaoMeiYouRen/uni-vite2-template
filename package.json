@@ -71,7 +71,7 @@
     "stylelint-order": "^5.0.0",
     "stylelint-scss": "^6.12.1",
     "typescript": "^5.9.2",
-    "vite": "^7.1.7"
+    "vite": "^7.2.6"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
